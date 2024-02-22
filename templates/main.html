@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教學介紹</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 80px;
+            border-bottom: 3px solid #0779e4;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header h1 i {
+            margin-right: 10px;
+        }
+        .content-section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .content-section:hover {
+            transform: translateY(-5px);
+        }
+        .content-section h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .content-section h2 i {
+            margin-right: 10px;
+        }
+        .content-section p {
+            text-align: justify;
+        }
+        .content-section a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        .content-section a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-graduation-cap"></i>歡迎來到我們的教學平台</h1>
+    </header>
+
+    <div class="container">
+        <section class="content-section" id="philosophy">
+            <h2><i class="fas fa-lightbulb"></i>教學理念</h2>
+            <p>在這裡，我們相信教育能夠改變世界，我們致力於提供創新和實踐相結合的教學方法，激發學生的學習熱情。</p>
+        </section>
+
+        <section class="content-section" id="content">
+            <h2><i class="fas fa-book-open"></i>教學內容</h2>
+            <p>我們的課程覆蓋了從基礎知識到高級技能的全面內容，旨在滿足不同學生的學習需求和興趣。</p>
+        </section>
+
+        <section class="content-section" id="schedule">
+            <h2><i class="fas fa-calendar-alt"></i>課程安排</h2>
+            <p>我們提供彈性的課程安排，包括在線和面授課程，以適應不同學生的時間表和學習偏好。</p>
+        </section>
+
+        <section class="content-section" id="teachers">
+            <h2><i class="fas fa-chalkboard-teacher"></i>師資陣容</h2>
+            <p>我們擁有一支經驗豐富、專業知識深厚的教師團隊，他們致力於提供高質量的教學和指導。</p>
+        </section>
+
+        <section class="content-section" id="contact">
+            <h2><i class="fab fa-line"></i>聯絡我們</h2>
+            <p>有任何問題，歡迎透過Line與我們聯繫：<a href="http://line.me/ti/p/@042gcdkk">@042gcdkk</a></p>
+        </section>
+    </div>
+</body>
+</html>
